@@ -1,0 +1,147 @@
+{
+  "configVersion": 1,
+  "timestamp": 1689752193856,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/14.a315e5cced5dfcf0.js",
+        "/184.5ac5844556366beb.js",
+        "/189.f118e27cf5eb34ce.js",
+        "/225.c4d384ee97cd6d4b.js",
+        "/95.89a22f26d3209837.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.039f7c40d7f5c5a3.js",
+        "/manifest.webmanifest",
+        "/polyfills.f576a0b067c2dfa5.js",
+        "/runtime.c40a860304d49eac.js",
+        "/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/posts"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/iPhone_14_Pro_portrait.png",
+        "/assets/icons/10.2__iPad_landscape.png",
+        "/assets/icons/10.2__iPad_portrait.png",
+        "/assets/icons/10.5__iPad_Air_landscape.png",
+        "/assets/icons/10.5__iPad_Air_portrait.png",
+        "/assets/icons/10.9__iPad_Air_landscape.png",
+        "/assets/icons/10.9__iPad_Air_portrait.png",
+        "/assets/icons/11__iPad_Pro__10.5__iPad_Pro_landscape.png",
+        "/assets/icons/11__iPad_Pro__10.5__iPad_Pro_portrait.png",
+        "/assets/icons/12.9__iPad_Pro_landscape.png",
+        "/assets/icons/12.9__iPad_Pro_portrait.png",
+        "/assets/icons/4__iPhone_SE__iPod_touch_5th_generation_and_later_landscape.png",
+        "/assets/icons/4__iPhone_SE__iPod_touch_5th_generation_and_later_portrait.png",
+        "/assets/icons/8.3__iPad_Mini_landscape.png",
+        "/assets/icons/8.3__iPad_Mini_portrait.png",
+        "/assets/icons/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_landscape.png",
+        "/assets/icons/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_portrait.png",
+        "/assets/icons/iPhone_11_Pro_Max__iPhone_XS_Max_landscape.png",
+        "/assets/icons/iPhone_11_Pro_Max__iPhone_XS_Max_portrait.png",
+        "/assets/icons/iPhone_11__iPhone_XR_landscape.png",
+        "/assets/icons/iPhone_11__iPhone_XR_portrait.png",
+        "/assets/icons/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_landscape.png",
+        "/assets/icons/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_portrait.png",
+        "/assets/icons/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_landscape.png",
+        "/assets/icons/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_portrait.png",
+        "/assets/icons/iPhone_14_Pro_Max_landscape.png",
+        "/assets/icons/iPhone_14_Pro_Max_portrait.png",
+        "/assets/icons/iPhone_14_Pro_landscape.png",
+        "/assets/icons/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_landscape.png",
+        "/assets/icons/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_portrait.png",
+        "/assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_landscape.png",
+        "/assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_portrait.png",
+        "/assets/icons/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_landscape.png",
+        "/assets/icons/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_portrait.png",
+        "/assets/icons/icon.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/14.a315e5cced5dfcf0.js": "0e9b8ec26ee5e1882daaba15a6b4054442b8f13c",
+    "/184.5ac5844556366beb.js": "b8fee80ab021065c8963479cfab04c7e56a0e331",
+    "/189.f118e27cf5eb34ce.js": "4877d7de4315bd693ba633b13bc24a51ece03ef8",
+    "/225.c4d384ee97cd6d4b.js": "df7c6e7ce917d1b063c545cf826a283f4e90df97",
+    "/95.89a22f26d3209837.js": "8967aadea54b2705d966010736896e3641c612a8",
+    "/assets/iPhone_14_Pro_portrait.png": "14f311ff94917ba3bc9f0426915a29e163466278",
+    "/assets/icons/10.2__iPad_landscape.png": "52c3684f13d953ec5916870e4b185438f8da3a81",
+    "/assets/icons/10.2__iPad_portrait.png": "32bc48f7f2fd40af3402f405a615bc6e7ac6a75c",
+    "/assets/icons/10.5__iPad_Air_landscape.png": "681b9d88fb83f2a501db090d12fcd51b3edf6154",
+    "/assets/icons/10.5__iPad_Air_portrait.png": "b1a34ad6d483dc05be71897298a94c49f7049ead",
+    "/assets/icons/10.9__iPad_Air_landscape.png": "8941475f2cfbc46141c482594901cf6b74275e4e",
+    "/assets/icons/10.9__iPad_Air_portrait.png": "cfc6cbe74bf86f1b7b8215c7f1992143ec195efa",
+    "/assets/icons/11__iPad_Pro__10.5__iPad_Pro_landscape.png": "6ba21c2c4212587f6c9bf1ffa45e0930983d1538",
+    "/assets/icons/11__iPad_Pro__10.5__iPad_Pro_portrait.png": "1c6885aea4005f4d3b6bc99e86757122c2433b08",
+    "/assets/icons/12.9__iPad_Pro_landscape.png": "a4bd7c5c721f5d6da0c45497f99ccb6ba54eb886",
+    "/assets/icons/12.9__iPad_Pro_portrait.png": "a2f06da408b9035657254480670dc26898e88084",
+    "/assets/icons/4__iPhone_SE__iPod_touch_5th_generation_and_later_landscape.png": "89007b4d29505de796d4143140b22df09fa0ebc4",
+    "/assets/icons/4__iPhone_SE__iPod_touch_5th_generation_and_later_portrait.png": "87a3ad283019f3a914f369e3ffdcc39dad0b5567",
+    "/assets/icons/8.3__iPad_Mini_landscape.png": "6c03725126476e7f914e81368d931df7f0ce1821",
+    "/assets/icons/8.3__iPad_Mini_portrait.png": "eb8df434388880030ccd017f99179424e7ed302d",
+    "/assets/icons/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_landscape.png": "d1707ed9b141588f479ecc39f187ef61a84da514",
+    "/assets/icons/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_portrait.png": "65a72efac6351d4e49fc6f12767192243fe3970e",
+    "/assets/icons/iPhone_11_Pro_Max__iPhone_XS_Max_landscape.png": "5ac48833d7206f1533e83b2fa26d58c6f880e718",
+    "/assets/icons/iPhone_11_Pro_Max__iPhone_XS_Max_portrait.png": "3bfb0b5f8f9dd607c88dc6099e942ac8e62be114",
+    "/assets/icons/iPhone_11__iPhone_XR_landscape.png": "b2fc690a672834edb898b6d93d33ab0d34939826",
+    "/assets/icons/iPhone_11__iPhone_XR_portrait.png": "a45db9d39a8082dbaa4f649369a8d67aa9fef115",
+    "/assets/icons/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_landscape.png": "08437011fa077a1c3cffa8e2ddd53e9c54da3ed7",
+    "/assets/icons/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_portrait.png": "3268eaeceffcde5eb2cb6a7115d7be2fa15abf10",
+    "/assets/icons/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_landscape.png": "5b27d83299c0d78220494e65ed773bb3c5de6e9a",
+    "/assets/icons/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_portrait.png": "ad60ed4c5cd88fe0c2de225dc6ae484d42143332",
+    "/assets/icons/iPhone_14_Pro_Max_landscape.png": "c121ad1058403c5013fea0d65e5f6b90bda649ab",
+    "/assets/icons/iPhone_14_Pro_Max_portrait.png": "7e6435c0637b208c54dc323a99b7f832141494be",
+    "/assets/icons/iPhone_14_Pro_landscape.png": "796105effd67db0b7648f042ae080ff383e4a7ff",
+    "/assets/icons/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_landscape.png": "8ed8288d2cc62f42d9383191add6b2cc60bf83d6",
+    "/assets/icons/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_portrait.png": "dfecb16c03f225ad772c928d4caf09c03e5af3ba",
+    "/assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_landscape.png": "ed748c094fc5058b756a628be5bcf4a0bbca0c59",
+    "/assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_portrait.png": "c2bf7bbe9b5a42fc80e9811de2cccf5befd1571b",
+    "/assets/icons/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_landscape.png": "25c15b4de774a422973daa37b4fcb210f2671acb",
+    "/assets/icons/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_portrait.png": "a14f6325c40906309f79c44d78a1296de74a4c42",
+    "/assets/icons/icon.png": "c40dabacd216e49efc5308c95cfba1672b7ce593",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "393c4b8fe4eced4d3f7fd9598cbc4e58f532f6d3",
+    "/main.039f7c40d7f5c5a3.js": "4a3abc50981f0a63de18712ee1962ef7afee3f17",
+    "/manifest.webmanifest": "a50ae2f6463e7640c3b9b217336947cfd0fea366",
+    "/polyfills.f576a0b067c2dfa5.js": "a1d1671642958ea0860e44f5a88651a8b2fe5687",
+    "/runtime.c40a860304d49eac.js": "3eb9f18e47f8fddef7f1be1d34912cb440159e95",
+    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
