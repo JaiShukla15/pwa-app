@@ -8,34 +8,28 @@
   "start_url": "./",
   "icons": [
     {
-      "src": "assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_portrait.png",
-      "sizes": "1242x2208",
+      "src": "assets/icons/android/android-launchericon-144-144.png",
+      "sizes": "144x144",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "maskable any"
     },
     {
-      "src": "assets/icons/iPhone_11__iPhone_XR_landscape.png",
-      "sizes": "1792x828",
+      "src": "assets/icons/android/android-launchericon-72-72.png",
+      "sizes": "72x72",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "maskable any"
     },
     {
-      "src": "assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_landscape.png",
-      "sizes": "2208x1242",
+      "src": "assets/icons/android/android-launchericon-48-48.png",
+      "sizes": "48x48",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "maskable any"
     },
     {
-      "src": "assets/icons/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_portrait.png",
-      "sizes": "1242x2208",
+      "src": "assets/icons/android/android-launchericon-96-96.png",
+      "sizes": "96x96",
       "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "assets/icons/12.9__iPad_Pro_landscape.png",
-      "sizes": "2732x2048",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "maskable any"
     }
   ]
 }

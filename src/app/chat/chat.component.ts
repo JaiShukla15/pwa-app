@@ -1,6 +1,6 @@
 import { Observable, of } from 'rxjs';
 import { ApiService } from './../services/api.service';
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -17,6 +17,8 @@ import { FormsModule } from '@angular/forms';
 })
 export class ChatComponent {
 
+  public innerWidth:number = 0;
+  public isMobile:boolean = false;
   public users: Observable<any> = of(null);
 
   public chat_info: Array<any> = [];
@@ -32,21 +34,26 @@ export class ChatComponent {
     public api: ApiService
   ) { }
 
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+     this.isMobile = this.innerWidth < 769;
+  }
+
   ngOnInit() {
     this.getChatUsers();
   }
 
   getChatUsers() {
     this.users = this.api.getAllUsers();
-
-    console.log(this.users, 'USERS')
   }
 
   getSelectedChat(userId: string) {
     this.selected_userId = userId;
     this.api.getSelectedChat(userId).subscribe((response: any) => {
       this.chat_info = response.data;
-      console.log(this.chat_info, 'CHAT INFO $$$$$$$$');
+    },(error)=>{
+      console.log(error,'SELECTED CHAT');
     });
   }
 
@@ -66,6 +73,10 @@ export class ChatComponent {
       createdAt:Date.now()
      });
      this.message = '';
+    },(err)=>{
+      if(err.status==504){
+        console.log('TIMEOUT')
+      }
     })
   }
 

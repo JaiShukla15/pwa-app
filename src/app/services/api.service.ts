@@ -24,6 +24,10 @@ export class ApiService {
     return this.http.get(`${BASE_URL_API}/${URLS.CHATS}`);
   }
 
+  getUsers() {
+    return this.http.get(`${BASE_URL}/${URLS.USERS}`);
+  }
+
   getAllUsers() {
     return this.http.get(`${BASE_URL_API}/${URLS.USERS}`);
   }
@@ -32,8 +36,8 @@ export class ApiService {
     return this.http.get(`${BASE_URL_API}/${URLS.CHATS}/${userId}`);
   }
 
-  sendMessage(payload:any){
-    return this.http.post(`${BASE_URL_API}/${URLS.CHATS}/${payload.receiver_id}/${URLS.SEND}`,payload);
+  sendMessage(payload: any) {
+    return this.http.post(`${BASE_URL_API}/${URLS.CHATS}/${payload.receiver_id}/${URLS.SEND}`, payload);
   }
 
   isLogin() {
@@ -44,5 +48,15 @@ export class ApiService {
     localStorage.clear();
     this.router.navigateByUrl('/login');
 
+  }
+
+  getEndpoints(url:any){
+    return url.split(`${BASE_URL_API}/`)[1];
+  }
+
+  backgroundSync(eventName: string,payload?:any) {
+    navigator.serviceWorker.ready.then((swRegisteration: any) => {
+      swRegisteration.sync.register(eventName);
+    }).catch(console.log)
   }
 }

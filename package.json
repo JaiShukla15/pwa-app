@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "start-dev":"http-server -p 4700 dist/pwa",
     "test": "ng test"
   },
   "private": true,

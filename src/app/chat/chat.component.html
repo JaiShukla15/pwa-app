@@ -20,7 +20,7 @@
                   <ng-container *ngIf="((users|async)?.result?.length)">
                     <div data-mdb-perfect-scrollbar="true" style="position: relative; height: 800px">
                       <ul class="list-unstyled mb-0">
-                        <li *ngFor="let item of (users|async)?.result" class="p-2 border-bottom">
+                        <li *ngFor="let item of (users|async)?.result" class="p-2 border-bottom col-sm-12">
                           <a href="javascript:void(0)" (click)="getSelectedChat(item.id)" class="d-flex justify-content-between">
                             <div class="d-flex flex-row">
                               <div>
@@ -53,9 +53,9 @@
 
               </div>
 
-              <div class="col-md-6 col-lg-7 col-xl-8">
+              <div class="col-md-6 col-lg-7 col-xl-8" *ngIf="!isMobile">
 
-                <div  class="pt-3 pe-3" data-mdb-perfect-scrollbar="true"
+                <div  class="pt-3 pe-3 col-sm-12" data-mdb-perfect-scrollbar="true"
                   style="position: relative; max-height: 70vh;overflow-y: auto;">
 
                   <ng-container *ngFor="let chat of chat_info" >
@@ -87,7 +87,7 @@
                     </h5>
 
                 </div>
-                <div style="position: absolute;bottom:200px;width: 65%;padding:10px;border:2px solid #ccc;border-radius: 8px;height: 80px;" class="text-muted d-flex justify-content-start align-items-center mt-4">
+                <div *ngIf="chat_info.length" style="position: absolute;bottom:30px;width: 65%;padding:10px;border:2px solid #ccc;border-radius: 8px;height: 80px;" class="text-muted d-flex justify-content-start align-items-center mt-4">
                   <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava6-bg.webp"
                     alt="avatar 3" style="width: 40px; height: 100%;">
                   <input type="text" [(ngModel)]="message"  class="form-control form-control-lg" id="exampleFormControlInput2"

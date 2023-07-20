@@ -14,7 +14,9 @@
           "/*.js"
         ],
         "urls": [
-          "https://jsonplaceholder.typicode.com/posts"
+          "https://jsonplaceholder.typicode.com/posts",
+          "http://localhost:8080/api/chats",
+          "http://localhost:8080/api/users"
         ]
       }
     },

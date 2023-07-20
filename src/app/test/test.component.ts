@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ApiService } from '../services/api.service';
 
 @Component({
   selector: 'app-test',
@@ -8,12 +9,15 @@ import { Component } from '@angular/core';
 })
 export class TestComponent {
 
-  constructor(){}
+  constructor(
+    private api:ApiService
+  ){}
 
-  notifyMe(){
-   let notificaton = new Notification('New Example',{
-    body:'Hello this is some notification',
-    data:{message:'Hey there'}
-   });
+  getData(){
+    this.api.getUsers().subscribe((res)=>{
+      console.log(res,'GOT USERS');
+    },(error)=>{
+      this.api.backgroundSync('get-users')
+    })
   }
 }
